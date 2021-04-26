@@ -1,0 +1,97 @@
+ /*tag selector */
+ .body {
+    color: gray;
+    width: 75%;
+    top: 0;
+    margin: auto;
+    
+}
+/*id selector */
+
+.logo {
+    /*-color: gray;*/
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+/*class selector */
+
+.navbar-top {
+
+    background-color: gray;
+    margin-top: 10px;
+    height: 70px;
+    /*width: 30px;*/
+    margin-bottom: 
+    text alignment
+    
+}
+.menu {
+    list-style-type: none;
+    height: auto;
+    display: block;
+    /*background-color: black;*/
+}
+.menu li {
+    display: inline;
+    float:right;
+    margin:9px;
+    padding:12px;
+}
+.menu li > a {
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(8, 34, 88);
+    padding: 5px;
+
+}
+a:hover { 
+    color: orange; 
+}
+a:active {
+        color:yellow;
+        /* look inside of div with a class feed for every
+        div inside, look for its child of element then apply style it
+        */
+}
+
+input [type="submit"]:hover {
+    cursor: pointer;
+}
+input[type="submit"] {
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+}  
+.input:focus, textarea:focus {
+    border-bottom: 1px solid blue;
+}
+.form {
+    margin-bottom: auto;
+    padding: auto;
+}
+.label, .form-header  {
+        font-weight: bold;
+        color: black;
+}
+.input-element, textarea {
+        width: 100%
+        /* padding:5px; */
+        margin-bottom 4px;
+        border: 0pt;
+        outline: 0pt; 
+        border-bottom: 1px solid grey;
+}
+.container {
+    display: inline;
+}
+
